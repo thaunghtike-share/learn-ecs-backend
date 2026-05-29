@@ -124,6 +124,21 @@ Backend API for ECS three-tier demo.
 
 ## Local Test
 
+.env 
+
+```text
+APP_NAME=learn-ecs-backend
+
+BACKEND_PORT=8000
+FLASK_ENV=production
+
+POSTGRES_DB=learn_devops
+POSTGRES_USER=learn_user
+POSTGRES_PASSWORD=learn_password
+DB_HOST=learn-ecs-db
+DB_PORT=5432
+```
+
 ```bash
 docker compose up --build
 ```
